@@ -1,0 +1,23 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "TwilioQuest Scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphael-developer/twilio-quest-js.git"
+  },
+  "keywords": [
+    "TwilioQuest",
+    "CodeGame"
+  ],
+  "author": "Raphael Rodrigues",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raphael-developer/twilio-quest-js/issues"
+  },
+  "homepage": "https://github.com/raphael-developer/twilio-quest-js#readme"
+}
