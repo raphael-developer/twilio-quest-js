@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn global bin
+
+PATH: 
+  /home/raphael/bin:/usr/local/bin:/home/raphael/.zinit/polaris/bin:/home/raphael/.local/bin:/home/raphael/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/usr/lib/jvm/default/bin:/home/raphael/.yarn/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/raphael/Documentos/development/twilioquest/js/package.json: Unexpected token d in JSON at position 0
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  ddd{
+    "name": "js",
+    "version": "1.0.0",
+    "description": "TwilioQuest Scripts",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "git+https://github.com/raphael-developer/twilio-quest-js.git",
+    "keywords": [
+      "TwilioQuest",
+      "CodeGame"
+    ],
+    "author": "Raphael Rodrigues",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/raphael-developer/twilio-quest-js/issues"
+    },
+    "homepage": "https://github.com/raphael-developer/twilio-quest-js#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
