@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/raphael-developer/twilio-quest-js/issues"
   },
-  "homepage": "https://github.com/raphael-developer/twilio-quest-js#readme"
+  "homepage": "https://github.com/raphael-developer/twilio-quest-js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
